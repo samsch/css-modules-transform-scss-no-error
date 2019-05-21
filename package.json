@@ -1,0 +1,19 @@
+{
+  "name": "css-modules-transform-scss-no-error",
+  "version": "1.0.0",
+  "description": "Repro of silent sass errors with css-modules-transform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Scheiderich",
+  "license": "0BSD",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "autoprefixer": "^9.5.1",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "postcss-import": "^12.0.1",
+    "sass": "^1.20.1"
+  }
+}
